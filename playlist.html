@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>playlist</title>
+    <!-- font awesome links  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo&family=Nunito:ital,wght@0,300;1,200;1,300&family=Poppins:ital,wght@0,200;0,300;1,200&family=Roboto:ital,wght@0,300;1,300&family=Work+Sans:ital,wght@0,500;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <section class="flex">
+        <a href="home.html" class="logo">Educa</a>
+        <form action="" method="post" class="search-form">
+          <input
+            type="text"
+            name="search-box"
+            placeholder="search courses here..."
+            required
+            maxlength="100"
+          />
+          <button
+            type="submit"
+            name="search-box"
+            class="fas fa-search"
+          ></button>
+        </form>
+        <div class="icons">
+          <div id="menu-btn" class="fas fa-bars"></div>
+          <div id="search-btn" class="fas fa-search"></div>
+          <div id="user-btn" class="fas fa-user"></div>
+          <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+        <div class="profile">
+          <img src="./desgin/images/pic-1.jpg" alt="" />
+          <h3>Ahmed khmis</h3>
+          <span>student</span>
+          <a href="profile.html" class="btn">view profile</a>
+          <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- side bar -->
+    <div class="side-bar">
+      <div class="close-side-bar">
+        <i class="fas fa-times"></i>
+      </div>
+
+      <div class="profile">
+        <img src="./desgin/images/pic-1.jpg" alt="" />
+        <h3>Ahmed khmis</h3>
+        <span>student</span>
+        <a href="profile.html" class="btn">view profile</a>
+      </div>
+      <nav class="navbar">
+        <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+        <a href="about.html"
+          ><i class="fas fa-question"></i><span>about us</span></a
+        >
+        <a href="courses.html"
+          ><i class="fas fa-graduation-cap"></i><span>courses</span></a
+        >
+        <a href="teachers.html"
+          ><i class="fas fa-chalkboard-user"></i><span>teachers</span></a
+        >
+        <a href="contact.html"
+          ><i class="fas fa-headset"></i><span>contact</span></a
+        >
+      </nav>
+    </div>
+
+    <!-- playlist section -->
+    <section class="playlist">
+      <h1 class="heading">playlist details</h1>
+      <div class="row">
+        <div class="col">
+          <form action="" method="post" class="save-list">
+            <button type="submit" name="save-list">
+              <i class="far fa-bookmark"></i><span>save playlist</span>
+            </button>
+            
+          </form>
+          <div class="thumb">
+            <span>6videos</span>
+            <img src="./desgin/images/thumb-1.png" alt=""  />
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="tutor">
+            <img src="./desgin/images/pic-2.jpg" alt="">
+            <div>
+              <h3>Ahmed Ibrahim</h3>
+              <span>developer</span>
+            </div>
+          </div>
+          <div class="details">
+            <h3>complete HTML cousre</h3>
+            <p>complete HTML cousre with all details will help you 
+              achieve what you need</p>
+              <div class="date"><i class="fas fa-calendar"></i><span>21-2-2023</span></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- video container section -->
+    <section class="videos-container">
+      <h1 class="heading">playlist videos</h1>
+      <div class="box-container">
+        <div class="box">
+        <a href="watchvideo.html">
+          <i class="fas fa-play"></i>
+          <img src="./desgin/images/post-1-1.png" alt="">
+          <h3>compltet HTML course part 1</h3>
+        </a>
+      </div>
+      <div class="box">
+        <a href="watchvideo.html">
+          <i class="fas fa-play"></i>
+          <img src="./desgin/images/post-1-2.png" alt="">
+          <h3>compltet HTML course part 2</h3>
+        </a>
+        </div>
+<div class="box">
+  <a href="watchvideo.html">
+          <i class="fas fa-play"></i>
+          <img src="./desgin/images/post-1-3.png" alt="">
+          <h3>compltet HTML course part 3</h3>
+        </a>
+</div>
+        
+<div class="box">
+  <a href="watchvideo.html">
+          <i class="fas fa-play"></i>
+          <img src="./desgin/images/post-1-4.png" alt="">
+          <h3>compltet HTML course part 4</h3>
+        </a>
+</div>
+        <div class="box">
+          <a href="watchvideo.html">
+          <i class="fas fa-play"></i>
+          <img src="./desgin/images/post-1-5.png" alt="">
+          <h3>compltet HTML course part 5</h3>
+        </a>
+        </div>
+        
+        <div class="box">
+          <a href="watchvideo.html">
+          <i class="fas fa-play"></i>
+          <img src="./desgin/images/post-1-6.png" alt="">
+          <h3>compltet HTML course part 6</h3>
+        </a>
+        </div>
+        
+
+        
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+      &copy; copyright@2023 by <span>Mr-Ahmed khmis </span>|| all rights
+      reserved !
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
